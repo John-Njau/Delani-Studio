@@ -3,3 +3,15 @@ body{
     margin: 0px;
     box-sizing: border-box;
 }
+
+#designText{
+    display: none;
+}
+
+#developmentText{
+    display: none;
+}
+
+#projectMgtText{
+    display: none;
+}
