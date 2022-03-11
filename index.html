@@ -12,13 +12,17 @@
   <body>
     <!-- welcome section -->
     <section
-      class="container-fluid text-white d-flex text-center"
+      class="container-fluid text-white d-flex"
       style="
         background-image: url('./Assets/backgrounds/h_img.jpg');
         height: 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
       "
     >
-      <div class="justify-content-center align-self-center">
+      <div class="text-center align-self-center">
         <img class="img-fluid bg-image m-2" src="Assets/logo/logo.png" alt="" />
         <h1 class="text-uppercase m-4">Welcome <br />To Delani studio</h1>
         <p class="lead text-uppercase">
@@ -51,10 +55,15 @@
 
     <!-- services section -->
     <section
+      id=""
       class="p-5"
       style="
         background-image: url('./Assets/backgrounds/s_image.jpg');
         height: fit-content;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
       "
     >
       <div class="text-white text-center">
@@ -78,7 +87,10 @@
     <!-- flex -->
     <section class="container text-center">
       <h2 class="text-uppercase text-center m-3 fs-1">What We Do</h2>
-      <div class="d-flex flex-wrap flex-md-nowrap justify-content-around p-4" id="whatWeDo">
+      <div
+        class="d-flex flex-wrap flex-md-nowrap justify-content-around p-4"
+        id="whatWeDo"
+      >
         <div id="design" class="p-3">
           <img
             id="designImage"
@@ -133,7 +145,7 @@
     <section class="container text-center">
       <h2 class="text-uppercase text-center m-3 fs-1">Portfolio</h2>
       <div class="row m-4">
-        <div class="col col-md-3">
+        <div class="col col-md-3 view overlay zoom">
           <img class="img-fluid" src="./Assets/portfolio/work1.jpg" alt="" />
         </div>
         <div class="col col-md-3">
@@ -163,7 +175,54 @@
     </section>
 
     <!-- contact us -->
-    <section></section>
+    <section
+      class="text-white"
+      style="
+        background-image: url('./Assets/backgrounds/c_image.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      "
+    >
+      <h2 class="text-center p-3">CONTACT US</h2>
+      <form action="GET" class="form m-4 text-center">
+        <label for="name"></label>
+        <input
+          type="text"
+          class="bg-transparent"
+          name=""
+          placeholder="Name..."
+        />
+
+        <label for="email"></label>
+        <input
+          type="email"
+          class="bg-transparent m-3"
+          name=""
+          id=""
+          placeholder="Email..."
+        />
+        <br />
+
+        <label for="message"></label>
+        <div>
+          <textarea
+            rows="8"
+            cols="55"
+            class="bg-transparent text-white"
+            id="comment"
+            placeholder="Write your message here...."
+          ></textarea>
+        </div>
+        <br />
+        <input
+          type="button"
+          value="SUBMIT"
+          class="btn btn-primary text-white m-3"
+        />
+      </form>
+    </section>
 
     <!-- footer -- social media -->
     <footer></footer>
