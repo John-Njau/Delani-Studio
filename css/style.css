@@ -16,18 +16,6 @@ body{
     display: none;
 }
 
-@media only screen and (max-width:768px){
-    .row{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    #whatWeDo{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 ::placeholder{
     /* border: 1px solid #fff; */
     color: #fff;
@@ -41,4 +29,23 @@ input, textarea{
 
 #msg{
     height: 30vh;
+}
+
+@media only screen and (max-width:768px){
+    .row{
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+    }
+    #whatWeDo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* What we do section for screens more than 768px */
+@media only screen and (min-width:768px){
+    #design, #projectMgt, #development{
+        width: 33.33%;
+    }
 }
