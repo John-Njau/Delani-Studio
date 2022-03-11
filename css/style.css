@@ -27,3 +27,18 @@ body{
         flex-direction: column;
     }
 }
+
+::placeholder{
+    /* border: 1px solid #fff; */
+    color: #fff;
+}
+
+input, textarea{
+    border: 1px solid #fff;
+    /* outline: none; */
+}
+
+
+#msg{
+    height: 30vh;
+}
