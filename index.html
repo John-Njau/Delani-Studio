@@ -12,7 +12,7 @@
   <body>
     <!-- welcome section -->
     <section
-      class="container-fluid text-white d-flex"
+      class="container-fluid text-white"
       style="
         background-image: url('./Assets/backgrounds/h_img.jpg');
         height: 80vh;
@@ -22,9 +22,15 @@
         position: relative;
       "
     >
-      <div class="text-center align-self-center">
-        <img class="img-fluid bg-image m-2" src="Assets/logo/logo.png" alt="" />
-        <h1 class="text-uppercase m-4">Welcome <br />To Delani studio</h1>
+      <div class="text-center" id="delani">
+        <img
+          class="img-fluid bg-image mt-5 pt-5 text-center"
+          src="Assets/logo/logo.png"
+          alt=""
+        />
+        <h1 class="text-uppercase m-4 text-center p-3">
+          Welcome <br />To Delani studio
+        </h1>
         <p class="lead text-uppercase">
           Amazing People are Making Amazing Designs in a fun Environment
         </p>
@@ -86,7 +92,7 @@
     <!-- What we do section -->
     <!-- flex -->
     <section class="container text-center">
-      <h2 class="text-uppercase text-center m-3 fs-1">What We Do</h2>
+      <h2 class="text-uppercase m-3 fs-1">What We Do</h2>
       <div
         class="d-flex flex-wrap flex-md-nowrap justify-content-around p-4"
         id="whatWeDo"
@@ -147,6 +153,7 @@
       <div class="row m-4 g-4">
         <div class="col col-md-3">
           <img class="img-fluid" src="./Assets/portfolio/work1.jpg" alt="" />
+          <div class="overlay">My name is John</div>
         </div>
         <div class="col col-md-3">
           <img class="img-fluid" src="./Assets/portfolio/work2.jpg" alt="" />
