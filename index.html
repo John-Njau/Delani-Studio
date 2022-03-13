@@ -5,19 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <script id="mcjs">
-      !(function (c, h, i, m, p) {
-        (m = c.createElement(h)),
-          (p = c.getElementsByTagName(h)[0]),
-          (m.async = 1),
-          (m.src = i),
-          p.parentNode.insertBefore(m, p);
-      })(
-        document,
-        "script",
-        "https://chimpstatic.com/mcjs-connected/js/users/9d336f34b07cc8db0b20b4dc8/b4930e73bb8577c9233989c99.js"
-      );
-    </script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="Assets/logo/logo.png" type="image/x-icon" />
     <title>Delani Studio</title>
@@ -249,13 +236,14 @@
       "
     >
       <h2 class="text-center p-3">CONTACT US</h2>
-      <form action="GET" class="form m-4 text-center" name="contactForm">
+      <form action="https://formspree.io/f/mlezleoe" method="POST" class="form m-4 text-center" name="contactForm">
         <label for="name"></label>
         <input
           type="text"
           class="bg-transparent"
           name="name"
           placeholder="Name..."
+          required
         />
 
         <label for="email"></label>
@@ -265,6 +253,7 @@
           name="email"
           id="email"
           placeholder="Email..."
+          required
         />
         <br />
 
@@ -281,11 +270,11 @@
         </div>
         <br />
         <input
-          type="button"
+          type="submit"
           value="SUBMIT"
           id="submitBtn"
-          class="btn btn-primary m-3"
-        />
+          class="btn btn-primary m-3">
+
       </form>
     </section>
 
@@ -317,15 +306,5 @@
 
     <script src="js/jQuery-3.6.0.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://chimpstatic.com/mcjs-connected/js/users/9d336f34b07cc8db0b20b4dc8/b4930e73bb8577c9233989c99.js"></script>
-    <script id="mcjs">
-      !function (c, h, i, m, p) {
-        (m = c.createElement(h)),
-          (p = c.getElementsByTagName(h)[0]),
-          (m.async = 1),
-          (m.src = i),
-          p.parentNode.insertBefore(m, p);
-      };
-    </script>
   </body>
 </html>
