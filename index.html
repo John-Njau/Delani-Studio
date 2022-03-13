@@ -217,7 +217,7 @@
             src="./Assets/portfolio/work8.jpg"
             alt=""
           />
-          <div class="overlayText fs-2 text-white bg-dark">Bailey Wonger</div>
+          <div class="overlayText fs-2 text-white bg-dark p-auto">Bailey Wonger</div>
         </div>
       </div>
     </section>
@@ -234,21 +234,21 @@
       "
     >
       <h2 class="text-center p-3">CONTACT US</h2>
-      <form action="GET" class="form m-4 text-center">
+      <form action="GET" class="form m-4 text-center" name="contactForm">
         <label for="name"></label>
         <input
           type="text"
           class="bg-transparent"
-          name=""
+          name="name"
           placeholder="Name..."
         />
 
         <label for="email"></label>
         <input
           type="email"
-          class="bg-transparent m-3"
-          name=""
-          id=""
+          class="bg-transparent m-3 text-white"
+          name="email"
+          id="email"
           placeholder="Email..."
         />
         <br />
@@ -260,6 +260,7 @@
             cols="55"
             class="bg-transparent text-white"
             id="comment"
+            name="message"
             placeholder="Write your message here...."
           ></textarea>
         </div>
