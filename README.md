@@ -1,6 +1,6 @@
 # Delani Studio
 
-A Web Development website.
+A professional Web Development website where you can get any website built and tailored to your specification.
 
 # By
 
@@ -20,7 +20,7 @@ A Web Development website.
 
 # Description
 
- <p>This is a landing to Delani Studio. A website where developers build websites, maintain and update your website at a fee.</p>
+ <p>This is a landing page to Delani Studio. A website where developers build websites, maintain and update your website at a fee.</p>
 
 
 # Installation
@@ -45,11 +45,11 @@ To Run this app in your machine, you need to:
 
 - JavaScript - To add functionality.
 
-- jquery - For user input validatio.
+- jquery - For user input validation.
 
 # Design
 
-This website's Design is provided in the Moringa Canvas. This design can be found [here](https://moringaschool.instructure.com/courses/586/assignments/9282?confetti=true&submitted=0).
+This website's Design and project description is provided in the Moringa Canvas. This design can be found [here](https://moringaschool.instructure.com/courses/586/assignments/9282?confetti=true&submitted=0).
 
 # Live link
 
