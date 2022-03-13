@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -6,7 +6,11 @@ body {
     margin: 0px;
     margin: 0px;
     box-sizing: border-box;
-    content: '\e8a8';
+    font-family: "Fira Sans", sans-serif;
+    
+    /* font-family: "Roboto Mono", monospace; */
+    /* font-family: "Rokkitt", serif; */
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 #designText,
@@ -17,14 +21,11 @@ body {
 
 
 ::placeholder {
-    /* border: 1px solid #fff; */
     color: #fff;
 }
 
 #delani {
     display: grid;
-    /* justify-content: center; */
-    /* margin: auto!important; */
     place-items: center;
     padding-top: 5%;
 }
@@ -32,15 +33,15 @@ body {
 input,
 textarea {
     border: 1px solid #fff;
-    /* outline: none; */
 }
 
 /* Overlay for Portfolio Image 1 */
-.overlay{
+.overlay {
     position: relative;
 }
 
-#overlay1Text {
+#overlay1Text,
+.overlayText {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -53,6 +54,7 @@ textarea {
 }
 
 .overlayEffects {
+    font-family: "RocknRoll One", sans-serif;
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -61,12 +63,6 @@ textarea {
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgb(0, 0, 0);
-    /* background-color: rgb(255, 255, 255); */
-    /* display: none; */
-    /* font-size: 155%; */
-    /* border: 2px solid rgb(255, 255, 255); */
-    /* padding: 20% auto; */
-
 }
 
 .overlay:hover .overlayEffects {
@@ -84,7 +80,6 @@ textarea {
 @media only screen and (max-width:768px) {
     .row {
         display: flex;
-        /* align-items: center; */
         flex-direction: column;
     }
 
