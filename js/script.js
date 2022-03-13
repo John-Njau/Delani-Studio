@@ -31,7 +31,7 @@ function submitForm() {
     var name = document.forms['contactForm']['name'].value;
     var email = document.forms['contactForm']['email'].value;
     var message = document.forms['contactForm']['message'].value;
-    var special=/^[^*|\":<>[\]{}`\\()';@&$]+$/;
+    var special=/[A-Za-z]/g;
 
     var userArray = [];
 
@@ -47,7 +47,7 @@ function submitForm() {
     }
 
     else {
-        alert(`${name}, we have received your message. Thank you for reaching us. Our Agents will respond to you Asap.`)
+        alert(`${name}, we have received your message. Thank you for reaching us.`)
     }
 
     userArray.push(name)
