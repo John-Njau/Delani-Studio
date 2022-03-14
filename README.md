@@ -11,6 +11,7 @@ A professional Web Development website where you can get any website built and t
 - [Description](#description)
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
+- [Dependencies](#dependencies)
 - [Design](#design)
 - [Live link](#live-link)
 - [Reference](#reference)
@@ -20,7 +21,7 @@ A professional Web Development website where you can get any website built and t
 
 # Description
 
- <p>This is a landing page to Delani Studio. A website where developers build websites, maintain and update your website at a fee.</p>
+ <p>This is a landing page to Delani Studio. A website where professional developers with unbeatable work ethic build websites, maintain and update your websites.</p>
 
 
 # Installation
@@ -45,7 +46,10 @@ To Run this app in your machine, you need to:
 
 - JavaScript - To add functionality.
 
-- jquery - For user input validation.
+
+# Dependencies
+
+- jQuery 
 
 # Design
 
