@@ -77,6 +77,11 @@ textarea {
     opacity: 0.7;
 }
 
+/* textarea{
+    width: 40vw;
+} */
+
+
 @media only screen and (max-width:768px) {
     .row {
         display: flex;
